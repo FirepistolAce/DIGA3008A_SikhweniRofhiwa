@@ -1,0 +1,51 @@
+.home
+{
+display:contents;
+align-items: center;
+height: 100vh;
+padding-top: 23px;
+}
+
+.image 
+{
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center
+
+}
+
+.image img 
+{
+    width: 70;
+    height: auto;
+    max-height: 100vh;
+    border-radius: 7%;
+}
+
+.title 
+{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.title h1
+{
+    color:darkcyan;
+    
+}
+
+.title h2
+{
+  
+  margin-bottom: 10px; 
+  justify-content: center; 
+}
+
+.title h2
+{
+    font-size: 18px;
+    color: skyblue;
+}
+
