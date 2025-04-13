@@ -6,36 +6,68 @@ height: 100vh;
 padding-top: 23px;
 }
 
+body {
+background-color: white;
+background: url(/images/background\ image.png);
+}
+
 .title 
 {
     flex: 1;
     text-align: center;
     padding: 20px;
     font-size: 34px;       /* Makes it larger */
-    margin-top: 170px;     /* Pushes it lower on the page */
+    margin-top: 100px;     /* Pushes it lower on the page */
+    
   
+
 }
 
 .title h1
 {
-    color:darkcyan;
+    color: #27e0ca; 
     
 }
 
 .title h2
 {
   
-  margin-bottom: 10px; 
+  margin-top: 10px; 
   justify-content: center; 
   font-size: 18px;
   color: rgb(19, 165, 222);
 }
 
-
-
-body{
-    background-color:aliceblue;
+nav {
+    background-color: rgba(64, 224, 208, 0.6);
+    position :fixed;
+    width : 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    padding-right: 50px;
+}
 
+nav ul li{
+    display: inline
+}
 
+nav ul li a{
+    text-decoration: none;
+    color: darkgreen;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+   background-color:darkgrey;
+}
