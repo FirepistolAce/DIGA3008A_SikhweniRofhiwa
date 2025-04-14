@@ -79,4 +79,100 @@ nav ul li a:hover{
    background-color:darkgrey;
 }
 
+/* Blog Navigation Container */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: #2d333a /* Light blue example - change as needed */
+}
+
+
+#blog-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+/* Blog Card Styles */
+#blog-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+
+#blog-nav ul li {
+    flex: 0 0 220px; 
+    aspect-ratio: 2 / 3;
+    display: flex;          /* Card-like fixed size */
+
+
+
+
+}
+
+#blog-nav ul li a {
+    display: block;
+    background-color: #ece7db;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #ccc;
+    transform: perspective(1500px) rotateY(0);
+    width: 100%;               /* Fill the flex item */
+    height: 100%;
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+
+
+
+
+/* Mobile & Tablet Adjustments */
+@media (max-width: 1024px) {
+    #blog-nav ul {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+  
+    #blog-nav {
+      height: auto; /* Allow content to grow */
+      padding: 40px 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #blog-nav ul {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+    }
+  
+  }
+  
+  @media screen and (min-width: 2560px) {
+    #blog-nav ul {
+      gap: 40px; /* Space between cards */
+      max-width: 100%; /* Allow full width usage */
+      padding: 0 60px; /* Some horizontal breathing room */
+      grid-template-columns: repeat(4, 1fr); /* Still 4 cards per row */
+    }
+  
+
+  }
+
 
