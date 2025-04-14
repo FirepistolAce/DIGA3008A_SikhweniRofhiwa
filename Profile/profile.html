@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/normalize.css" />
     <link rel="stylesheet" href="/mainstylesheet.css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font for icons -->
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
     <title>Profile page</title>
   </head>
   <body>
@@ -24,5 +29,38 @@
     <header>
       <h1><h1>About me</h1></h1>
     </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
+
+  <main class="about-section">
+    <div class="about-content">
+      <img src="/images/profile image.jpg" alt="My Profile Picture" class="profile-pic" />
+
+      <div class="bio">
+        <h2>Hi, I'm Theo formally known as Sikhweni Rofhiwa</h2>
+        <p>
+          I'm a digital art and interactive media student passionate about animation, storytelling, 
+          and creative technology. My work blends visual design with interactive elements to create engaging digital experiences.
+        </p>
+        <p>
+          Skilled in tools like Adobe Creative Suite, Blender, Unity, and krita, I aim to bridge the gap between creativity and innovation.
+        </p>
+        <p>
+          Outside of school, I love curating music, watching anime (Naruto  forever), and experimenting with new digital tools.
+        </p>
+
+        <!-- Social links -->
+        <div class="social-links">
+          <a href="https://github.com/firepistol" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com/yourhandle" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </main>
   </body>
 </html>
