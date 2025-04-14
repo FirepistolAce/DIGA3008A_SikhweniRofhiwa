@@ -7,8 +7,11 @@ body{
 }
 
 nav{
-    background: rgb(1, 114, 114);
+    background: rgb(0, 131, 131);
+height: 80px;
+width: 100%;
 }
-.class {
+.logo {
+    color: aqua;
 
 }
