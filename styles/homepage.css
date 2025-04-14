@@ -15,7 +15,9 @@ font-family: 'playfair', 'Times New Roman';
 height: 100vh;
 }
 
-
+.active{
+  background-color: gray;
+}
 
 .title 
 {
