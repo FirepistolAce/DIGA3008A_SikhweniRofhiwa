@@ -7,10 +7,10 @@ body {
   }
   
   header {
-    background-color: #222;
+    background-color: #06b27f;
     color: #fff;
     text-align: center;
-    padding: 2rem 1rem;
+    
   }
   
   .media-gallery {
@@ -21,7 +21,7 @@ body {
   }
   
   .media-item {
-    background-color: #fff;
+    background-color: #06b0a8;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

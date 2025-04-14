@@ -119,3 +119,30 @@
       font-size: 28px;
     }
   }
+
+
+
+  
+.insideblog nav{
+ background:teal;
+   height: 60px;
+   width: 100%;
+   }
+ 
+   
+   .insideblog nav ul {
+   float: right;
+   margin-right: 50px;
+   margin-top: 20px;
+   }
+   
+   .insideblog ul li{
+       display: inline-block;
+       margin-right: 20px;
+   }
+   
+   .insideblog nav ul li a{
+       font-size: 18px;
+       color: cyan;
+       text-decoration: none;
+   }
