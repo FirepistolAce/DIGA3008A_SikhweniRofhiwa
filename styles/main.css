@@ -10,3 +10,12 @@ label{
 
 
 }
+
+nav {
+    background-color: rgba(64, 224, 208, 0.6);
+    position :fixed;
+    width : 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
