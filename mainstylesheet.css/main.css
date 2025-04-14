@@ -1,4 +1,4 @@
-body{
+.body{
     font-family: 'Times New Roman', Times, serif;
     background: url('/images/background\ image.png');
     background-size: cover;
@@ -35,4 +35,8 @@ margin-top: 20px;
     font-size: 18px;
     color: cyan;
     text-decoration: none;
+}
+
+a.active{
+    background: gray;
 }
