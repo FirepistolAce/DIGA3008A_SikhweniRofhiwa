@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: 'Times New Roman', Times, serif;
     background: url('/images/background\ image.png');
     background-size: cover;
@@ -41,6 +41,37 @@ a.active{
     background: darkslategray;
     padding: 10px 30px;
     border-radius: 35px;
+}
 
+/* Layout for Content */
+.home {
+    display:flex;
+    align-items:center;
+    height: 50vh;
+    padding-top: 2px; /* Prevent navbar overlap */
+}
+
+
+
+/* Caption on the left */
+.title {
+    flex: 1;
+    text-align:center; /* Align text to the left */
+    padding: 10px;
+}
+
+.title h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-size: 16px;
+    color: #1C1C1C;
+}
+
+.title h2 {
+    font-size: 50px;
+    color: #1C1C1c;
 }
 
