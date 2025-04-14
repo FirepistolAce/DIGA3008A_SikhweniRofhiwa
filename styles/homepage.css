@@ -19,6 +19,7 @@ height: 100vh;
   background-color: gray;
 }
 
+
 .title 
 {
     
@@ -26,9 +27,7 @@ height: 100vh;
     text-align: center;
     padding: 20px;
     font-size: 34px;       /* Makes it larger */
-    margin-top: 100px;     /* Pushes it lower on the page */
-    
-  
+    margin-top: 100px;     /* Pushes it lower on the page */ 
 
 }
 
