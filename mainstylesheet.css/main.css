@@ -6,14 +6,21 @@ body{
 
 }
 
-nav{
-    background: rgb(0, 131, 131);
+.main nav{
+    background:teal;
 height: 80px;
 width: 100%;
 }
 .Logo {
-    color: rgb(5, 170, 137);
+    color:rgb(28, 177, 103);
     font-size: 25px;
     font-weight: bold;
+    line-height: 80px;
+    margin: 0 20px;
 
+}
+
+.main nav ul {
+float: right;
+margin-right: 50px;
 }
