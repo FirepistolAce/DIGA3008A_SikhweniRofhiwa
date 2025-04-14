@@ -6,7 +6,11 @@ nav {
     left: 0;
     z-index: 1000;
 }
-
+body{
+    background: url(/images/background\ image\ 3.png);
+    background-size: cover;
+height: 100vh;
+}
 
 nav ul{
     list-style: none;

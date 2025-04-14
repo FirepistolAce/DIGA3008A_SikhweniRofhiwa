@@ -9,7 +9,9 @@ nav {
 
 
 body {
-    background-color:  rgba(47, 113, 163, 0.959);
+    background: url(/images/background\ image\ 2.png) no-repeat;
+    background-size: cover;
+height: 100vh;
     }
     
 nav ul{
