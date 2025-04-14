@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: url('/images/background\ image.png');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+nav{
+    background: rgb(1, 114, 114);
+}
+.class {
+
+}
