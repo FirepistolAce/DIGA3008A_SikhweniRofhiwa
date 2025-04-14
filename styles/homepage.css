@@ -11,7 +11,7 @@ body {
 background-image: url('../images/backgroundimage3.png');
 background-size: cover;
 font-family: 'playfair', 'Times New Roman';
-repeat: none;
+background-repeat: no-repeat;
 }
 
 
