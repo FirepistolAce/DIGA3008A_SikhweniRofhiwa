@@ -1,3 +1,11 @@
+
+body {
+    background: url(/images/background\ image\ 3.png) repeat;
+    background-size: cover;
+    font-size: large;
+height: 100vh;
+    }
+
 nav {
     background-color: rgba(64, 224, 208, 0.6);
     position :fixed;
@@ -7,12 +15,6 @@ nav {
     z-index: 1000;
 }
 
-
-body {
-    background: url(/images/background\ image\ 2.png) no-repeat;
-    background-size: cover;
-height: 100vh;
-    }
     
 nav ul{
     list-style: none;
