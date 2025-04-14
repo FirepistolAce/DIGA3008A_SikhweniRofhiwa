@@ -7,8 +7,8 @@ body{
 }
 
 .main nav{
-    background:teal;
-height: 80px;
+ background:teal;
+height: 60px;
 width: 100%;
 }
 .Logo {
@@ -23,4 +23,16 @@ width: 100%;
 .main nav ul {
 float: right;
 margin-right: 50px;
+margin-top: 20px;
+}
+
+.main nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main nav ul li a{
+    font-size: 18px;
+    color: cyan;
+    text-decoration: none;
 }
