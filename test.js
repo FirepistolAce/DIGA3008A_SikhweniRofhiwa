@@ -46,3 +46,18 @@ function calculateRectangleArea(length, width) {
   console.log("Result:", checkFifty());
   
   
+  function exercise4() {
+    let voltage = 5;
+    let current = 5; 
+    let power = voltage * current;
+    return power;
+}
+
+console.log(exercise4()); // ✅ This line runs the function and prints the result
+
+
+function RandomInteger(){
+  const number = Mathf.floor(Math.random() *10)+1;
+  return randomnumber;
+}
+console.log("Random number between 1 and 10 ",RandomInteger());
