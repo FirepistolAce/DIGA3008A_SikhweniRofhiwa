@@ -67,11 +67,13 @@ a.active{
 
 .title {
     font-size: 16px;
-    color: #07a293;
+    color:#FFF8E1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .title h2 {
-    font-size: 50px;
-    color: #059452d2;
+    font-size: 38px;
+    color:#F8F8FF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 

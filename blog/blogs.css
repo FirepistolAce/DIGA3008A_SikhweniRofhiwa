@@ -123,14 +123,14 @@
 
 
   
-.insideblog nav{
+#insideblog nav{
  background:teal;
    height: 60px;
    width: 100%;
    }
  
    
-   .insideblog nav ul {
+   #insideblog nav ul {
    float: right;
    margin-right: 50px;
    margin-top: 20px;
