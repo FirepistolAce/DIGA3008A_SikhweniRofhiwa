@@ -1,134 +1,84 @@
-/* Add CSS Reset at the top */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+body{
     font-family: 'Times New Roman', Times, serif;
-    background: url('../images/background image.png') no-repeat center center fixed;
+    background: url('../images/background\ image.png');
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
+    height: 100vh;
+
 }
 
-.main nav {
-    background: teal;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-}
 
+.main nav{
+ background:teal;
+height: 60px;
+width: 100%;
+}
 .Logo {
-    color: rgb(28, 177, 103);
+    color:rgb(28, 177, 103);
     font-size: 25px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 80px;
+    margin: 0 20px;
+
 }
 
 .main nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+float: right;
+margin-right: 50px;
+margin-top: 20px;
 }
 
-.main nav ul li {
+.main nav ul li{
+    display: inline-block;
     margin-right: 20px;
 }
 
-.main nav ul li a {
+.main nav ul li a{
     font-size: 18px;
     color: cyan;
     text-decoration: none;
 }
 
-a.active {
+a.active{
     background: darkslategray;
     padding: 10px 30px;
     border-radius: 35px;
 }
 
-/* Homepage Content */
+/* Layout for Content */
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 60px); /* Full height minus navbar */
-    padding: 0 20px;
-    text-align: center;
-    flex-wrap: wrap; /* Allow wrapping of content */
+    display:flex;
+    align-items:center;
+    height: 50vh;
+    padding-top: 2px; /* Prevent navbar overlap */
 }
 
+
+
+/* Caption on the left */
 .title {
-    padding: 10px;
     flex: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    text-align:center; /* Align text to the left */
+    padding: 10px;
+    background-image: ;
 }
 
-.title h1 {
+
+.title h1{
     font-size: 32px;
-    color: #E0FFFF;
+    color:#E0FFFF;
+   /* margin-right: 72px; /* adjust this value as needed */
+    transform: translateX(-40px); /* Adjust this value to shift it left */
     font-family: 'Cinzel', serif;
     font-weight: 700;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-    margin: 0;
+
 }
 
 .title h2 {
-    font-size: 28px;
-    margin-top: 20px;
-    color: #FFF8E1;
-    font-family: 'Cinzel', serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 34px;
+    margin-top: 60px;
+    color:#FFF8E1;
+    font-family:'Cinzel', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
-/* 🌐 Responsive Adjustments */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-
-    .main nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-    }
-
-    .main nav ul {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .main nav ul li {
-        margin: 10px 0;
-    }
-
-    .home {
-        flex-direction: column;
-        height: auto;
-        padding: 60px 20px 20px 20px;
-    }
-
-    .title h1 {
-        font-size: 24px;
-        transform: none; /* Remove horizontal shift on small screens */
-    }
-
-    .title h2 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-}
