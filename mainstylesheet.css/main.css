@@ -6,6 +6,30 @@ body{
 
 }
 
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+  
+    .nav-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-text {
+      transform: none; /* removes translateX if used */
+      margin: 0 auto;
+      text-align: center;
+    }
+}
+
 .main nav{
  background:teal;
 height: 60px;
@@ -58,6 +82,7 @@ a.active{
     flex: 1;
     text-align:center; /* Align text to the left */
     padding: 10px;
+    background-image: ;
 }
 
 
@@ -74,9 +99,9 @@ a.active{
 
 .title h2 {
     font-size: 34px;
-    margin-top: 90px;
+    margin-top: 60px;
     color:#FFF8E1;
     font-family:'Cinzel', serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
