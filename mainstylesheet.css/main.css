@@ -60,20 +60,23 @@ a.active{
     padding: 10px;
 }
 
-.title h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
+
+.title h1{
+    font-size: 32px;
+    color:#E0FFFF;
+   /* margin-right: 72px; /* adjust this value as needed */
+    transform: translateX(-40px); /* Adjust this value to shift it left */
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+
 }
 
-.title {
-    font-size: 16px;
+.title h2 {
+    font-size: 34px;
+    margin-top: 90px;
     color:#FFF8E1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.title h2 {
-    font-size: 38px;
-    color:#F8F8FF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family:'Cinzel', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
