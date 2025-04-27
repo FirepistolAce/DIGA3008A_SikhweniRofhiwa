@@ -1,3 +1,13 @@
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: url('../images/background\ image.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+
 .about-content {
   display: flex;
   align-items: center;
