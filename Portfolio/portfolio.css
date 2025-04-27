@@ -1,12 +1,10 @@
-
- 
- body{
+body {
   font-family: 'Times New Roman', Times, serif;
-  background: url('../images/background\ image.png');
+  background: url('../images/background\ image.png') no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
-
+  min-height: 100vh;
 }
+
   header {
     background-color: #06b27f;
     color: #fff;
