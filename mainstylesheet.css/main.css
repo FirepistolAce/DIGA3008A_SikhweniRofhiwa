@@ -82,3 +82,21 @@ a.active{
     text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
+
+  .main-footer {
+    background-color: #2e3a59;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .main-footer a {
+    color: #9ec5ff;
+    text-decoration: none;
+  }
+  
+  .main-footer a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,13 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
-body{
-    
-    background: url('/images/background\ image.png');
-    background-size: cover;
-    height: 100vh;
-
+body {
+  background: url('/images/background\ image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
+
 #blog-nav {
     display: flex;
     justify-content: center;
@@ -172,7 +173,7 @@ body{
         position: absolute;
         bottom: 20px;
         left: 20px;
-        color: white;
+        color: rgb(21, 216, 200);
         font-size: 22px;
         font-weight: bold;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -203,3 +204,5 @@ body{
        color: cyan;
        text-decoration: none;
    }
+
+   
