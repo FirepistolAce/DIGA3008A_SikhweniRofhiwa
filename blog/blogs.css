@@ -131,7 +131,14 @@ body{
     margin-top: 20px;
       margin-bottom: -20px;}
 
-
+      .blog-image {
+        width: 100%;
+        height: 150px; /* control height */
+        object-fit: cover; /* make sure the image doesn't stretch */
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
   
 #insideblog nav{
  background:teal;
