@@ -107,3 +107,12 @@ a.active{
     text-decoration: underline;
   }
   
+  menu-button{
+    background-color:teal;
+    color: #b10505;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
