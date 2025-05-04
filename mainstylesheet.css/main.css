@@ -28,6 +28,55 @@ width: 100%;
     float: left;
     border-radius: 50%;
 }
+
+.menu-button {
+    font-size: 30px;
+    color:white;
+    float: right;
+    margin-right: 20px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none; /* Hide the menu button by default */
+
+}
+
+#check{
+    display: none; /* Hide the checkbox */
+
+}
+
+@media (max-width: 804px ){
+    .menu-button {
+        display: block; /* Show the menu button on smaller screens */
+
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        background-color: turquoise;
+        
+    }
+
+    .main nav ul {
+        display: none; /* Hide the menu items by default */
+        position: absolute;
+        top: 60px; /* Position below the navbar */
+        right: 0;
+        background-color: teal;
+        width: 100%;
+        padding: 10px 0;
+    }
+    #check:checked ~ nav ul {
+        display: block; /* Show the menu items when checkbox is checked */
+    }
+    .main nav ul li {
+        display: block; /* Stack menu items vertically */
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+/* Hide the menu button when the screen is wider than 768px */
 .main nav ul {
 float: right;
 margin-right: 50px;
