@@ -176,13 +176,9 @@ nav ul li {
         width: 100%;
         padding: 10px 0;
     }
-    #check:checked ~ nav ul {
-        left: 0; /* Slide in the menu when checkbox is checked */
-        display: block; /* Show the menu items when checkbox is checked */
+    #check:checked ~ ul {
+        left: 0;
+        display: block;
     }
-    .main nav ul li {
-        display: block; /* Stack menu items vertically */
-        margin-right: 0;
-        text-align: center;
-    }
+    
 }
