@@ -183,30 +183,70 @@ body {
     }
     
   
-#insideblog nav{
- background:teal;
-   height: 60px;
-   width: 100%;
-   margin-top: 5px;
 
-   }
- 
-   
-   #insideblog nav ul {
-   float: right;
-   margin-right: 50px;
-   margin-top: 20px;
-   }
+/* 4. Responsive adjustments */
+   #blog-nav ul {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+}
 
-   #insideblog ul li{
-       display: inline-block;
-       margin-right: 20px;
-   }
-   
-   #insideblog nav ul li a{
-       font-size: 18px;
-       color: cyan;
-       text-decoration: none;
-   }
+.blog-card {
+  background-color: #ece7db;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 1s ease-out both;
+}
+
+.blog-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.blog-content h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #2b2b2b;
+  font-family: "Gelasio", serif;
+}
+
+.blog-content p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+  font-family: "Gelasio", serif;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #008080b3;
+}
+
 
    
